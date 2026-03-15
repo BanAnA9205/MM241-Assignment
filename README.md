@@ -70,7 +70,7 @@ This chart displays the average trim loss across the tested episodes. **Lower is
 
 | Policy | Average Trim Loss | Efficiency Analysis |
 | :--- | :--- | :--- |
-| **Random Policy** | **~77.7%** | Highly inefficient; random placement leaves massive unusable gaps. |
+| **Random Policy** | **~77.8%** | Highly inefficient; random placement leaves massive unusable gaps. |
 | **Baseline Greedy** | **~27.0%** | Standard greedy logic; adequately fills space but lacks spatial optimization. |
 | **Our Custom Greedy** | **~18.4%** | Highly efficient for real-time applications; spatial sorting and dual-phase packing aggressively reduces waste corners. |
 | **Our Genetic Algorithm** | **~12.8%** | **Best Performance;** evolutionary backtracking and ERS optimization consistently find near-global optima. |
